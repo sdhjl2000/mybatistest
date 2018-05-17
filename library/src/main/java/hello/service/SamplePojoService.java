@@ -1,0 +1,31 @@
+package hello.service;
+
+import org.springframework.stereotype.Service;
+import javax.annotation.Resource;
+import java.util.List;
+import hello.domain.SamplePojo;
+import hello.dao.SamplePojoDao;
+
+@Service
+public class SamplePojoService {
+
+//    @Resource
+//    private SamplePojoDao samplePojoDao;
+//
+//    public int insert(SamplePojo pojo){
+//        return samplePojoDao.insert(pojo);
+//    }
+//
+//    public int insertList(List< SamplePojo> pojos){
+//        return samplePojoDao.insertList(pojos);
+//    }
+//
+//    public List<SamplePojo> select(SamplePojo pojo){
+//        return samplePojoDao.select(pojo);
+//    }
+//
+//    public int update(SamplePojo pojo){
+//        return samplePojoDao.update(pojo);
+//    }
+
+}
