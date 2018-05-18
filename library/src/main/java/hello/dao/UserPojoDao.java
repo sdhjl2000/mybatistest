@@ -3,8 +3,9 @@ package hello.dao;
 import java.util.List;
 
 import hello.domain.UserPojo;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-
+@Mapper
 public interface UserPojoDao {
 
     int insert(@Param("pojo") UserPojo pojo);
