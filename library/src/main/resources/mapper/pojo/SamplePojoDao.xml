@@ -3,7 +3,7 @@
 <mapper namespace="hello.dao.SamplePojoDao">
 
 <!--auto generated Code-->
-    <resultMap id="AllColumnMap" type="hello.domain.SamplePojo">
+    <resultMap id="AllColumnMap" type="hello.domain.pojo.SamplePojo">
         <result column="id" property="id"/>
         <result column="name" property="name"/>
     </resultMap>

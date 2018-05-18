@@ -1,4 +1,4 @@
-package hello.domain;
+package hello.domain.user;
 
 /**
  * Created by hujinliang on 2018/5/17.

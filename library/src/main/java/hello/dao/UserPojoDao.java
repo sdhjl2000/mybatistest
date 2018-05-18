@@ -2,7 +2,7 @@ package hello.dao;
 
 import java.util.List;
 
-import hello.domain.UserPojo;
+import hello.domain.user.UserPojo;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 @Mapper

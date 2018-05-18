@@ -1,10 +1,6 @@
 package hello.service;
 
 import org.springframework.stereotype.Service;
-import javax.annotation.Resource;
-import java.util.List;
-import hello.domain.SamplePojo;
-import hello.dao.SamplePojoDao;
 
 @Service
 public class SamplePojoService {

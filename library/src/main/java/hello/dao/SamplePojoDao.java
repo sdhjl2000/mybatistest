@@ -2,10 +2,10 @@ package hello.dao;
 
 import java.util.List;
 
+import hello.domain.pojo.SamplePojo;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-import hello.domain.*;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+
 @Mapper
 public interface SamplePojoDao {
 
