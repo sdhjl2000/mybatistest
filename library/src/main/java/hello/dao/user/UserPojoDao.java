@@ -1,4 +1,4 @@
-package hello.dao;
+package hello.dao.user;
 
 import java.util.List;
 

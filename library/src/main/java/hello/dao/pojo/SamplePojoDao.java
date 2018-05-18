@@ -1,4 +1,4 @@
-package hello.dao;
+package hello.dao.pojo;
 
 import java.util.List;
 

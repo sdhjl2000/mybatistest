@@ -13,12 +13,11 @@ import org.springframework.context.annotation.Primary;
  */
 @Configuration
 public class DatabaseConfiguration {
-    public static final String PRIMARY_DATASOURCE = "OneDS";
-    public static final String SECONDARY_DATASOURCE = "AnotherDS";
+    public static final String PRIMARY_DATASOURCE = "dataSourceOne";
+    public static final String SECONDARY_DATASOURCE = "dataSourceAnother";
 
     @Bean(name = PRIMARY_DATASOURCE, destroyMethod = "")
     @ConfigurationProperties(prefix = "datasource.one")
-    @Primary
     public DataSource dataSourceOne() {
         // Filled up with the properties specified about thanks to Spring Boot black magic
         return new DruidDataSource();

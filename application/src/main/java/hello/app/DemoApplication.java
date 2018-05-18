@@ -3,18 +3,17 @@ package hello.app;
 import java.util.Random;
 import javax.annotation.Resource;
 
-import hello.dao.SamplePojoDao;
+import hello.dao.pojo.SamplePojoDao;
 import hello.domain.pojo.SamplePojo;
 import hello.service.MyService;
-import org.mybatis.spring.annotation.MapperScan;
+import org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@SpringBootApplication(scanBasePackages = "hello")
+@SpringBootApplication(scanBasePackages = "hello",exclude= MybatisAutoConfiguration.class)
 @RestController
-@MapperScan(basePackages="hello.dao")
 public class DemoApplication {
 
 
