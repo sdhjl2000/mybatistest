@@ -8,12 +8,12 @@ import org.apache.ibatis.annotations.Param;
 @Mapper
 public interface UserPojoDao {
 
-    int insert(@Param("pojo") UserPojo pojo);
+    int insert( UserPojo pojo);
 
-    int insertList(@Param("pojos") List<UserPojo> pojo);
+    int insertList( List<UserPojo> pojo);
 
-    List<UserPojo> select(@Param("pojo") UserPojo pojo);
+    List<UserPojo> select( UserPojo pojo);
 
-    int update(@Param("pojo") UserPojo pojo);
+    int update( UserPojo pojo);
 
 }

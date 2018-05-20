@@ -27,6 +27,6 @@ dependencies {
     compile project(':library')
     testCompile('org.springframework.boot:spring-boot-starter-test')
     compile('org.apache.commons:commons-dbcp2:2.1.1')
-    compile('com.alibaba:druid:1.1.8')
+    compile('com.alibaba:druid-spring-boot-starter:1.1.9')
 }
 
